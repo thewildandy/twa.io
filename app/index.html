@@ -22,17 +22,17 @@
     <!-- Add your site or application content here -->
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">twa.io</h3>
+        <h3 class="text-muted">twa.io <small>~ an experimental link-shortening service</small></h3>
+      </div>
+
+      <div class="alert alert-warning">
+        <b>Important Notice:</b> this project is in the early development stages and is not close to production-ready. Data you enter here may be wiped at any time, so if you need reliable link-shortening use a tried and tested service such as bit.ly or goo.gl.
       </div>
 
       <div ng-view=""></div>
 
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p>Made with <span class="glyphicon glyphicon-heart"></span> by <a href="https://twitter.com/thewildandy">thewildandy</a></p>
       </div>
     </div>
 
